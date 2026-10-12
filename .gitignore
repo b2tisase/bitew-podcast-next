@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+public/audio
+dist/audio
+
+public/audio
+dist/audio
+node_modules
+dist

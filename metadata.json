@@ -1,0 +1,10 @@
+{
+  "name": "BITEW PODCAST",
+  "description": "Official BITEW PODCAST platform and Creator Studio - Listen. Learn. Repeat. Arts, human rights, healthcare, and socio-economic dialogues.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

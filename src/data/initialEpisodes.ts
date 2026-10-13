@@ -3,7 +3,7 @@ import { Episode } from '../types/podcast';
 // Default initial catalog with direct production hosted audio URLs
 export const INITIAL_EPISODES: Episode[] = [
   {
-   id: 'ep-001',
+    id: 'ep-001',
     title: 'Love Unto Crypt Narrative: "Marriage" Part 1',
     amharicTitle: 'ፍቅር እስከ መቃብር ትረካ "ትዳር" ክፍል 1',
     description: 'A deep literary analysis and evocative oral recitation of Haddis Alemayehu\'s classic masterpiece "Fiqir Iske Meqabir", exploring societal hierarchies and traditional marriage institutions.',
@@ -44,7 +44,7 @@ export const INITIAL_EPISODES: Episode[] = [
     season: 1,
     episodeNumber: 2,
     releaseDate: '2026-10-06T14:30:00Z',
-    duration: 3012, // 50m 12s
+    duration: 3012,
     audioUrl: '/audio/episodes/bitew_episode_2.mp3',
     status: 'published',
     listensCount: 3910,
@@ -66,7 +66,7 @@ export const INITIAL_EPISODES: Episode[] = [
     season: 1,
     episodeNumber: 3,
     releaseDate: '2026-10-08T09:15:00Z',
-    duration: 2645, // 44m 05s
+    duration: 2645,
     audioUrl: '/audio/episodes/bitew_episode_3.mp3',
     status: 'published',
     listensCount: 2740,
@@ -88,7 +88,7 @@ export const INITIAL_EPISODES: Episode[] = [
     season: 1,
     episodeNumber: 4,
     releaseDate: '2026-10-10T11:00:00Z',
-    duration: 2930, // 48m 50s
+    duration: 2930,
     audioUrl: '/audio/episodes/bitew_episode_4.mp3',
     status: 'published',
     listensCount: 5120,
@@ -110,53 +110,11 @@ export const INITIAL_EPISODES: Episode[] = [
     season: 1,
     episodeNumber: 5,
     releaseDate: '2026-10-11T08:00:00Z',
-    duration: 2778, // 46m 18s
+    duration: 2778,
     audioUrl: '/audio/episodes/bitew_episode_5.mp3',
     status: 'published',
     listensCount: 3200,
     artworkGradient: 'from-purple-900 via-pink-950 to-black',
     host: 'Bitew & Rahel G.',
-  },
-  {
-    id: 'ep-006',
-    title: 'Love Unto Crypt Narrative: "Marriage" Part 2',
-    amharicTitle: 'ፍቅር እስከ መቃብር ትረካ "ትዳር" ክፍል 2',
-    description: 'The continuing serialized narrative of Haddis Alemayehu\'s masterpiece, exploring the tragic escalation of personal conviction against aristocratic decree.',
-    amharicDescription: 'ተከታታይ የፍቅር እስከ መቃብር ትረካ፤ የግል እምነት ከባላባታዊ ፍላጎት ጋር የተጋጨበት አሳዛኝና አስገራሚ ትዕይንት።',
-    showNotes: `### የክፍሉ ማስታወሻ (Show Notes)
-- የክፍል 2 ትረካ በታቀደው ጊዜ (ኦክቶበር 18 ቀን 2026) በቀጥታ ይለቀቃል!
-- ትረካ፡ ቢተው
-- የድምፅ ቅንብር፡ የቢተው ፖድካስት ስቱዲዮ`,
-    category: 'Arts',
-    season: 1,
-    episodeNumber: 6,
-    releaseDate: '2026-10-18T12:00:00Z',
-    scheduledDate: '2026-10-18T12:00',
-    duration: 2840,
-    audioUrl: '/audio/episodes/bitew_episode_6.mp3',
-    status: 'scheduled',
-    listensCount: 0,
-    artworkGradient: 'from-violet-900 via-indigo-900 to-black',
-    host: 'Bitew',
-  },
-  {
-    id: 'ep-007',
-    title: 'Youth Unemployment & Independent Digital Media Spaces',
-    amharicTitle: 'የወጣቶች ስራ አጥነት እና የነጻ ዲጂታል ሚዲያ እድሎች',
-    description: 'Working draft on demographic shifts, self-publishing, and grassroots monetization without state censorship.',
-    amharicDescription: 'ረቂቅ ዝግጅት፡ በወጣቶች የስራ እድል ፈጠራ እና ራስን በዲጂታል ቴክኖሎጂዎች የመግለጽ ነፃነት ዙሪያ።',
-    showNotes: `### ረቂቅ ማስታወሻ
-- የድምጽ ጥራት ማስተካከያ ያስፈልገዋል
-- ተጨማሪ የስታትስቲክስ መረጃዎችን ማካተት`,
-    category: 'Socio-Economic',
-    season: 1,
-    episodeNumber: 7,
-    releaseDate: '2026-10-11T12:00:00Z',
-    duration: 1980,
-    audioUrl: '/audio/episodes/bitew_episode_7.mp3',
-    status: 'draft',
-    listensCount: 0,
-    artworkGradient: 'from-slate-900 via-purple-950 to-black',
-    host: 'Bitew',
   }
 ];

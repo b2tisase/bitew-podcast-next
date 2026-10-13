@@ -22,8 +22,8 @@ export const INITIAL_EPISODES: Episode[] = [
     season: 1,
     episodeNumber: 1,
     releaseDate: '2026-10-04T10:00:00Z',
-    duration: 2550, // 42m 30s
-    audioUrl: '/audio/episodes/bitew_episode_1.mp3',
+    duration: 2552, // 42m 32s
+    audioUrl: 'https://firebasestorage.googleapis.com/v0/b/bitew-podcast-next.firebasestorage.app/o/episodes%2F%E1%87%8D%E1%89%85%E1%88%AD%20%E1%8A%A5%E1%88%B5%E1%8A%A8%20%E1%88%98%E1%89%83%E1%89%A5%E1%88%AD%20%E1%89%B5%E1%88%A8%E1%8A%AB%20%22%E1%89%B5%E1%84%83%E1%88%AD%22%20%E1%8A%AD%E1%87%8D%E1%88%8D%201.mp3?alt=media&token=657584eb-7823-483f-846a-4217eb9e88b2',
     status: 'published',
     listensCount: 4820,
     artworkGradient: 'from-purple-900 via-indigo-950 to-black',

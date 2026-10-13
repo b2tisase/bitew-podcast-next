@@ -3,7 +3,7 @@ import { Episode } from '../types/podcast';
 // Default initial catalog with direct production hosted audio URLs
 export const INITIAL_EPISODES: Episode[] = [
   {
-    id: 'ep-001',
+   id: 'ep-001',
     title: 'Love Unto Crypt Narrative: "Marriage" Part 1',
     amharicTitle: 'ፍቅር እስከ መቃብር ትረካ "ትዳር" ክፍል 1',
     description: 'A deep literary analysis and evocative oral recitation of Haddis Alemayehu\'s classic masterpiece "Fiqir Iske Meqabir", exploring societal hierarchies and traditional marriage institutions.',
